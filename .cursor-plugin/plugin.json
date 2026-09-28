@@ -1,0 +1,22 @@
+{
+  "name": "aft-page",
+  "version": "0.1.0",
+  "description": "Deploy small software to a live, shareable URL: a folder, a build output, or a public GitHub repo.",
+  "author": {
+    "name": "aft.page",
+    "email": "hello@aft.page"
+  },
+  "homepage": "https://aft.page/plugins",
+  "repository": "https://github.com/aft-page/plugins",
+  "license": "MIT",
+  "keywords": [
+    "aft.page",
+    "deploy",
+    "hosting",
+    "mcp",
+    "preview",
+    "small-software"
+  ],
+  "displayName": "aft.page",
+  "logo": "assets/logo.png"
+}
