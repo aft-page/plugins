@@ -26,6 +26,14 @@ as a marketplace source.
 npx plugins add aft-page/plugins
 ```
 
+**[Entire](https://entire.com/features/plugins)**: the `aft` CLI as `entire aft …`
+(binary from this repo's releases, named by `entire-plugin.yml`):
+
+```bash
+entire plugin install https://github.com/aft-page/plugins
+entire aft deploy
+```
+
 **Any MCP client** (no plugin):
 
 ```json
@@ -71,6 +79,7 @@ The tools:
 .plugin/plugin.json, .mcp.json   `npx plugins` manifest + MCP
 plugin.json, mcp.json        Agent Plugins manifest + MCP
 skills/deploy-to-aft/        the skill
+entire-plugin.yml            Entire CLI plugin manifest (binaries ship as releases)
 ```
 
 Issues and questions: hello@aft.page · [aft.page](https://aft.page)
